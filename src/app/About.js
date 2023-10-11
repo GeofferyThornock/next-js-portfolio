@@ -21,22 +21,38 @@ export default function About() {
                 ></img>
             </div>
             <p className="pt-20 px-32">
-                Adipisicing labore Lorem enim cupidatat exercitation aute
-                ullamco dolor duis esse amet. Dolor culpa cillum veniam id. Ad
-                proident proident amet tempor nulla eiusmod deserunt. Esse
-                pariatur quis nulla ut ullamco. Do elit et pariatur minim ut.
-                Commodo proident laboris tempor qui dolore. Nostrud nisi elit
-                excepteur ad amet. Irure ut do in mollit sit elit quis.
-                Excepteur mollit nulla mollit proident eu non enim sit. In
-                labore dolore cillum occaecat eiusmod. Enim enim reprehenderit
-                amet et eu irure. Minim non nisi nisi esse commodo commodo
-                occaecat. Reprehenderit elit quis est cillum ex deserunt nisi.
-                Cillum velit et non reprehenderit occaecat minim enim. Labore id
-                aute dolore sunt exercitation ea non qui culpa officia ullamco
-                anim ipsum reprehenderit. Dolor enim non duis occaecat laboris
-                dolore magna esse duis. Laboris ut ut ad id. Nostrud deserunt
-                fugiat consequat et est esse. Enim id irure fugiat adipisicing
-                elit ex culpa incididunt ut ullamco tempor do enim in.
+                Hey, My name's Geoffery and I tend to enjoy solving the hard
+                problems. Being homeschooled I had to learn on my own, and that
+                really taught me to really enjoy the process of gaining new
+                information, so it became a really big hobby of mine, and that's
+                how I found programming, mixing the best of both worlds, solving
+                hard problems and learning constantly.
+            </p>
+            <p className="pt-5 px-32">
+                Since I was little I've always had a knack for computers, when I
+                was about 3 years old I would hop on our wonderful Dell Optiplex
+                and head to some old flash game site on my own, so it wasn't
+                surprising when at about 13 I found out about programming, and
+                I've been learning off and on ever since. It's been a wonderful
+                journey and deciding to do a programming bootcamp and
+                transferring my programming skills to more real world
+                applications, I consider it now one of the best decisions I've
+                ever made. Learning countless frameworks, some development
+                philosophy, and having my classmates there really made it all an
+                amazingly wonderful experience.
+            </p>
+            <p className="pt-5 px-32">
+                Being an Eagle Scout, and a patrol leader for roughly 4 years of
+                that time, I gained a lot of experience in Leadership, and
+                communication, even receiving official training multiple times.
+                That has helped me form bonds with coworkers and just generally
+                get along with everyone I meet.
+            </p>
+            <p className="pt-5 px-32 pb-10">
+                My specialties are Full-Stack Web Development, Node.js, Express,
+                RESTful APIs, PostgreSQL, HTML, CSS, JavaScript, React, Visual
+                Studio Code, Eclipse, UNIX Terminals, as well as some experience
+                in Java, Python, C#, Golang.
             </p>
         </div>
     );

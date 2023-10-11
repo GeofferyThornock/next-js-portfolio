@@ -9,6 +9,11 @@ export default function Home() {
                 <Navbar />
             </main>
             <About />
+            <div className="flex justify-center p-10 ">
+                <sub className="text-slate-500">
+                    &copy; Geoffery Thornock 2023
+                </sub>
+            </div>
         </div>
     );
 }
