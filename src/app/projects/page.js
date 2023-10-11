@@ -1,5 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import Navbar from "../Navbar";
+const window = global.window;
 
 export default function Projects() {
     return (
@@ -8,41 +10,95 @@ export default function Projects() {
                 <p className="text-4xl drop-shadow-2xl">Geoffery Thornock</p>
                 <Navbar />
             </main>
-            <div className="flex  justify-center gap-5 px-20 flex-wrap">
-                <div className="flex flex-col flex-auto bg-slate-300 p-3 rounded-lg items-center text-center">
-                    <p className="text-xl">
-                        Restaurant Reservation Application
-                    </p>
-                    <img
-                        className="w-1/4 pt-10"
-                        src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
-                    ></img>
-                    <p className="pt-5">
-                        A fullstack app for a restaurant business to track and
-                        manage tables, reservations and booking.
-                    </p>
-                    <p className="text-sm text-slate-600 pt-3">
-                        Tech Used: React.js, Node.js, Express, PostgreSQL
-                        Database.
-                    </p>
+            <h1 className="text-center text-2xl p-8">My Projects</h1>
+            <div className="flex flex-wrap gap-5 px-20 justify-center justify-items-start">
+                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <Link
+                        href="https://github.com/GeofferyThornock/restaurant-reservation"
+                        passHref={true}
+                    >
+                        <p className="text-xl">
+                            Restaurant Reservation Application
+                        </p>
+                        <img
+                            className="w-auto pt-10"
+                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                        ></img>
+                        <p className="pt-5">
+                            A fullstack app for a restaurant business to track
+                            and manage tables, reservations and booking.
+                        </p>
+                        <p className="text-sm text-slate-600 pt-3">
+                            Tech Used: React.js, Node.js, Express, PostgreSQL
+                            Database.
+                        </p>
+                    </Link>
                 </div>
-                <div className="flex flex-col bg-slate-300 p-3 rounded-lg items-center text-center">
-                    <p className="text-xl">
-                        Restaurant Reservation Application
-                    </p>
-                    <img
-                        className="w-1/4 pt-10"
-                        src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
-                    ></img>
-                    <p className="pt-5">
-                        A fullstack app for a restaurant business to track and
-                        manage tables, reservations and booking.
-                    </p>
-                    <p className="text-sm text-slate-600 pt-3">
-                        Tech Used: React.js, Node.js, Express, PostgreSQL
-                        Database.
-                    </p>
+                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <Link
+                        href="https://github.com/GeofferyThornock/flashcards-react"
+                        passHref={true}
+                    >
+                        <p className="text-xl">
+                            Flashcard Studying Application
+                        </p>
+                        <img
+                            className="w-auto pt-10"
+                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                        ></img>
+                        <p className="pt-5">
+                            A fullstack app to create flashcard decks to make
+                            memorization easier
+                        </p>
+                        <p className="text-sm text-slate-600 pt-3">
+                            Tech Used: React.js, Node.js, Express, PostgreSQL
+                            Database.
+                        </p>
+                    </Link>
                 </div>
+                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <Link
+                        href="https://github.com/GeofferyThornock/decoder-ring"
+                        passHref={true}
+                    >
+                        <p className="text-xl">Decoder/Encoding Software</p>
+                        <img
+                            className="w-auto pt-10"
+                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                        ></img>
+                        <p className="pt-5">
+                            An app that uses backend algorithms to encode and
+                            decode specific ciphers
+                        </p>
+                        <p className="text-sm text-slate-600 pt-3">
+                            Tech Used: Javascript, Node.js, Express.
+                        </p>
+                    </Link>
+                </div>
+                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <Link
+                        href="https://github.com/GeofferyThornock/grubdash"
+                        passHref={true}
+                    >
+                        <p className="text-xl">Recipe Cards</p>
+                        <img
+                            className="w-auto pt-10"
+                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                        ></img>
+                        <p className="pt-5">
+                            A simple backend app that lets you save, update,
+                            create, and delete recipes to use for later
+                        </p>
+                        <p className="text-sm text-slate-600 pt-3">
+                            Tech Used: Node.js, Express.
+                        </p>
+                    </Link>
+                </div>
+            </div>
+            <div className="flex justify-center p-10 ">
+                <sub className="text-slate-500">
+                    &copy; Geoffery Thornock 2023
+                </sub>
             </div>
         </div>
     );
