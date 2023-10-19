@@ -64,7 +64,7 @@ export default function Projects() {
                         <p className="text-xl">Decoder/Encoding Software</p>
                         <img
                             className="w-auto pt-10"
-                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                            src="https://i.imgur.com/UVxp5Oe.png"
                         ></img>
                         <p className="pt-5">
                             An app that uses backend algorithms to encode and
@@ -83,11 +83,11 @@ export default function Projects() {
                         <p className="text-xl">Recipe Cards</p>
                         <img
                             className="w-auto pt-10"
-                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                            src="https://i.imgur.com/EVP5Tl9.png"
                         ></img>
                         <p className="pt-5">
-                            A simple backend app that lets you save, update,
-                            create, and delete recipes to use for later
+                            A simple application that mimics the functionality
+                            of a grubhub clone.
                         </p>
                         <p className="text-sm text-slate-600 pt-3">
                             Tech Used: Node.js, Express.
