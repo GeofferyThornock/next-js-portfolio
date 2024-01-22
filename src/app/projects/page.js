@@ -22,7 +22,7 @@ export default function Projects() {
                         </p>
                         <img
                             className="w-auto pt-10"
-                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                            src="https://i.imgur.com/dhUUm4h.png"
                         ></img>
                         <p className="pt-5">
                             A fullstack app for a restaurant business to track
@@ -44,7 +44,7 @@ export default function Projects() {
                         </p>
                         <img
                             className="w-auto pt-10"
-                            src="https://camo.githubusercontent.com/be071d8b246e49bcef0b45a75ad5972b34012520aacb993e874981b70ccf715d/68747470733a2f2f692e696d6775722e636f6d2f646855556d34682e706e67"
+                            src="https://i.imgur.com/VIiY2ul.png"
                         ></img>
                         <p className="pt-5">
                             A fullstack app to create flashcard decks to make

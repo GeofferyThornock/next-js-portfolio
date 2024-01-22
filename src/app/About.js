@@ -48,11 +48,15 @@ export default function About() {
                 That has helped me form bonds with coworkers and just generally
                 get along with everyone I meet.
             </p>
-            <p className="pt-5 px-32 pb-10">
+            <p className="pt-5 px-32">
                 My specialties are Full-Stack Web Development, Node.js, Express,
                 RESTful APIs, PostgreSQL, HTML, CSS, JavaScript, React, Visual
-                Studio Code, Eclipse, UNIX Terminals, as well as some experience
-                in Java, Python, C#, Golang.
+                Studio Code, Eclipse, UNIX Terminals, as well as some
+                experience`` in Java, Python, C#, Golang.
+            </p>
+            <p className="pt-10 px-32 pb-5">
+                This Portfolio was made with Next.js along with the capabilities
+                of Tailwind
             </p>
         </div>
     );
